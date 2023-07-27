@@ -9,7 +9,7 @@ let[showpara,setShowpara]=useState(false);
       <button onClick={()=>setShowpara(true)}>Clickme</button>
       {
         showpara && (
-          <p>Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>
+          <p className="hide show">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>
         )
       }
     </div>
